@@ -3,6 +3,10 @@
 * Java and JSON part is with great thanks to Werner Rothschopf               
 * (https://werner.rothschopf.net/201809_arduino_esp8266_server_client_1.htm) 
 ******************************************************************************
+// 1.1 What's new: 3 XY swap functions that can be true or false depending on how you've mounted the MPU
+// 1.2 What's new: mDNS so you can use a hostname to browse to instead of an ip-address
+// What's next? I think sensivity
+******************************************************************************
 -- Hardware --
 --------------
 * CPU: ESP8266 Wemos D1 Mini Pro (V3.0.0)
@@ -20,6 +24,7 @@ https://nl.aliexpress.com/item/1005006365845676.html
 * SDA = D2
 * SCK or SCL = D1
 * Internal Led = D4
+* Reset switch = Pin RST to ground
 * !! Make sure the MPU and the Display are connected to 3v3 and _NOT_ 5v
 
 
