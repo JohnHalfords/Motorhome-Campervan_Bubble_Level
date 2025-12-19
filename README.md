@@ -1,6 +1,6 @@
 *****************************************************************************
 * Motorhome/Campervan Bubble Level, by John Halfords, the Netherlands
-* If you have any ideas build-up comment or questions, feel free to contact me: halfordsj@gmail.com *
+* If you have any ideas build-up comment or questions, feel free to contact me: halfordsj@gmail.com
 * Java and JSON part is with great thanks to Werner Rothschopf               
 * (https://werner.rothschopf.net/201809_arduino_esp8266_server_client_1.htm) 
 ******************************************************************************
@@ -27,6 +27,7 @@ https://nl.aliexpress.com/item/1005006365845676.html
 * Internal Led = D4
 * Reset switch = Pin RST to ground
 * !! Make sure the MPU and the Display are connected to 3v3 and _NOT_ 5v
+
 
 
 
