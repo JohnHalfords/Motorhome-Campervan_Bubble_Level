@@ -1,16 +1,24 @@
 *****************************************************************************
 * Motorhome/Campervan Bubble Level, by John Halfords, the Netherlands        
 *****************************************************************************
-What's new:
------------
-1.1 &nbsp;3 XY swap functions that can be true or false depending on how you've mounted the MPU<br>
-1.2 &nbsp;mDNS so you can use a hostname to browse to instead of an ip-address<br>
-2.0 &nbsp;Included sensivity<br>
-&nbsp; &nbsp; &nbsp; &nbsp;ChatGPT made an new Graphical design<br>
-&nbsp; &nbsp; &nbsp; &nbsp;Put the wwwroot (in progmem) and the personal settings in seperate file<br>
-2.1 &nbsp;Exchange data with browser with 'WebSocket live stream'<br>
-&nbsp; &nbsp; &nbsp; &nbsp;ChatGPT helped me with a stable websocket<br>
-******************************************************************************
+<table>
+<tr>
+  <td style="padding-left:10px;">
+    <h2>What's new:</h2><br>
+    <b>1.1</b><br><i>
+    * 3 XY swap functions that can be true or false depending on how you've mounted the MPU<br></i>
+    <b>1.2</b><br><i>
+    * mDNS so you can use a hostname to browse to instead of an ip-address<br></i>
+    <b>2.0</b><br> &nbsp;Included sensivity<br><i>
+    * ChatGPT made an new Graphical design<br>
+    * Put the wwwroot (in progmem) and the personal settings in seperate file<br></i>
+    <b>2.1</b><br> &nbsp;Exchange data with browser with 'WebSocket live stream'<br><i>
+    * ChatGPT helped me with a stable websocket<br></i>
+  </td>
+  <td><img src="Screenshot_Webinterface.png"></td>
+</tr>
+</table>
+
 -- Hardware --
 --------------
 * CPU: ESP8266 Wemos D1 Mini Pro (V3.0.0)
@@ -30,3 +38,4 @@ https://nl.aliexpress.com/item/1005006365845676.html
 * Internal Led = D4
 * Reset switch = Pin RST to ground
 * !! Make sure the MPU and the Display are connected to 3v3 and _NOT_ 5v
+
