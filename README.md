@@ -1,12 +1,15 @@
 *****************************************************************************
-* Motorhome/Campervan Bubble Level, by John Halfords, the Netherlands
-* If you have any ideas build-up comment or questions, feel free to contact me: halfordsj@gmail.com
-* Java and JSON part is with great thanks to Werner Rothschopf               
-* (https://werner.rothschopf.net/201809_arduino_esp8266_server_client_1.htm) 
+* Motorhome/Campervan Bubble Level, by John Halfords, the Netherlands        
 ******************************************************************************
-- 1.1 What's new: 3 XY swap functions that can be true or false depending on how you've mounted the MPU
-- 1.2 What's new: mDNS so you can use a hostname to browse to instead of an ip-address
-- What's next? I think sensivity
+// What's new:
+// -----------
+// 1.1 3 XY swap functions that can be true or false depending on how you've mounted the MPU
+// 1.2 mDNS so you can use a hostname to browse to instead of an ip-address
+// 2.0 Included sensivity
+//     ChatGPT made an new Graphical design
+//     Put the wwwroot (in progmem) and the personal settings in seperate file
+// 2.1 Exchange data with browser with 'WebSocket live stream'
+//     ChatGPT helped me with a stable websocket
 ******************************************************************************
 -- Hardware --
 --------------
@@ -27,10 +30,6 @@ https://nl.aliexpress.com/item/1005006365845676.html
 * Internal Led = D4
 * Reset switch = Pin RST to ground
 * !! Make sure the MPU and the Display are connected to 3v3 and _NOT_ 5v
-
-
-
-
 
 
 
