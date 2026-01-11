@@ -3,6 +3,9 @@ const char wwwroot[] PROGMEM = R"rawliteral(
 <html>
   <head>
     <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'/>
+    <meta http-equiv='Cache-Control' content='no-store, no-cache, must-revalidate, max-age=0'/>
+    <meta http-equiv='Pragma' content='no-cache'/>
+    <meta http-equiv='Expires' content='0'/>
     <title>Bubble Level</title>
     <style>
       html,body{
@@ -181,7 +184,8 @@ const char wwwroot[] PROGMEM = R"rawliteral(
           }
         }
       },200)
-
+      setDisconnected()
+      spinner.classList.add('paused')
       connect()
     </script>
   </body>
