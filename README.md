@@ -41,8 +41,3 @@ https://nl.aliexpress.com/item/1005006365845676.html
 * Internal Led = D4
 * Reset switch = Pin RST to ground
 * !! Make sure the MPU and the Display are connected to 3v3 and _NOT_ 5v
-
-
-
-
-
