@@ -1,8 +1,5 @@
 *****************************************************************************
 * Motorhome/Campervan Bubble Level, by John Halfords, the Netherlands        
-<a href="https://github.com/JohnHalfords/Motorhome-Campervan_Bubble_Level">For download, go to the Github page...</a>
-<br>
-<br>
 
 <table>
 <tr>
